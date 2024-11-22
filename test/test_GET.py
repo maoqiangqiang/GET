@@ -27,7 +27,7 @@ if __name__ == "__main__":
     
     # tree depth 
     treeDepth = int(sys.argv[5])                    #  e.g. 2 4 8 
-    epochNum = int(sys.argv[6])                     #  e.g. 1000; large than 21 epoch
+    epochNum = int(sys.argv[6])                     #  e.g. 1000; larger than 21 epoch
     deviceArg =  str(sys.argv[7])                   #  "cuda" or "cpu"
     device = torch.device(deviceArg)
     startNum = int(sys.argv[8])                     #  e.g. 1, 2, 3, 4, 5...
