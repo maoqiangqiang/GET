@@ -29,7 +29,8 @@ Initial version, all rights reserved. Updates coming soon.
   - `dataset.py` is to load the dataset. 
   - `warmStart.py` generates the warm-start initialization based on `CART` method.
   - `GET_IterAlp.py` includes the main functions of `GET` method. 
-  - `subtreePolish.py` includes the subtree polish strategy. 
+  - `subtreePolish.py` includes the subtree polish strategy.
+  - `modifiedScheduler.py` is a learning rate scheduler with initial linear warmup. We acknowledge the original contributor for the work on this type of scheduler as posted in PyTorch issues #80308. 
 
 - `test` folder contains the script of running these algorithms.
   - `test_GET.py` is to test the `GET` method without equipping subtree polish strategy.
